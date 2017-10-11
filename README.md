@@ -6,4 +6,7 @@ Buttons with cooldown animation and keyboard hotkeys.
 
 ![Alt text](/Screenshots/abilityButton.gif?raw=true "Ability Button")
 
+### Small assets
+Different small assets created in blender.
+
 ![Alt text](/Screenshots/Screenshot1.png?raw=true "Screenshot")
