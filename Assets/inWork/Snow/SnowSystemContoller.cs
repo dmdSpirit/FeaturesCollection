@@ -31,7 +31,6 @@ public class SnowSystemContoller : MonoBehaviour {
 		snowCamera.nearClipPlane = cameraDisplacement - 0.1f;
 		snowCamera.farClipPlane = cameraDisplacement + snowDepth;
 		snowCamera.transform.localRotation = Quaternion.LookRotation(new Vector3(0,1,0), new Vector3(0,0,-1));
-		snowCamera.targetTexture = snowRenderTexture;
 		snowCamera.orthographicSize = floorSize.x * 5;
 
 		//MeshRenderer snowSurfaceMR = snowSurface.GetComponent<MeshRenderer> ();
