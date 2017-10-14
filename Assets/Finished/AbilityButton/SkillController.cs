@@ -10,6 +10,8 @@ public class SkillController : MonoBehaviour {
 	[SerializeField]
 	KeyCode abilityKey;
 
+	public Text abilityKeyText;
+
 	bool _isUsable;
 	bool isUsable{
 		get{ return _isUsable;}
@@ -30,13 +32,15 @@ public class SkillController : MonoBehaviour {
 
 	void Start(){
 		isUsable = true;
+		if (abilityKey != null)
+			abilityKeyText.text = abilityKey.ToString ();
 	}
 
 	// To use by key pressing.
-	//void Update(){
-	//	if (isUsable && Input.GetKeyDown (abilityKey))
-	//		CastAbility ();
-	//}
+	void Update(){
+		if (isUsable && abilityKey != null && Input.GetKeyDown (abilityKey))
+			CastAbility ();
+	}
 
 	public void CastAbility(){
 
