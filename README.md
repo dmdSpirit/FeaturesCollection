@@ -13,6 +13,12 @@ Different small assets created in blender. Season changin is implemented by swap
 
 ## Current TODO.
 
+### Snow System
+
 Create snow system using snow shader with tessellation and displacement.
 
 ![Alt text](/Screenshots/snow.gif?raw=true "Snow system example")
+
+### Camping tent assetShowcase
+
+![Alt text](/Screenshots/TentPreview.png?raw=true "Tent Preview")
