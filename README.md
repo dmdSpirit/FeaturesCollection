@@ -18,3 +18,9 @@ Different small assets created in blender. Season changin is implemented by swap
 Create snow system using snow shader with tessellation and displacement.
 
 ![Alt text](/Screenshots/snow.gif?raw=true "Snow system example")
+
+### Campfire
+
+Create lowpoly campfire model and fire particle system.
+
+![Alt text](/Screenshots/campfire.gif?raw=true "Campfire example")
