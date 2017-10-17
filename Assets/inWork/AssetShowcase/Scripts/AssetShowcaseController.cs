@@ -13,12 +13,10 @@ public class AssetShowcaseController : MonoBehaviour {
 	public GameObject newMaterial;
 	public List<Material> assetsMaterialList;
 	public PostProcessingBehaviour ppBehaviour;
-
-	Shader standartShader;
-	Shader snowShader;
+	public CampfireController campfireController;
 
 	void Start(){
-		//assetsMaterialList = new List<Material> ();
+		SetSummer();
 	}
 
 	public void SetSummer(){
@@ -26,12 +24,14 @@ public class AssetShowcaseController : MonoBehaviour {
 			material.shader = Shader.Find("Standard");
 		}
 		ppBehaviour.profile = summerProfile;
+		campfireController.IsWorking = true;
 	}
 
 	public void SetWinter(){
 		foreach(var material in assetsMaterialList){
 			material.shader = Shader.Find("Custom/SnowShader");
 		}
+		campfireController.IsWorking = false;
 		ppBehaviour.profile = winterProfile;
 	}
 
