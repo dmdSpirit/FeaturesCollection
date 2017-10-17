@@ -19,8 +19,12 @@ Create snow system using snow shader with tessellation and displacement.
 
 ![Alt text](/Screenshots/snow.gif?raw=true "Snow system example")
 
-### Campfire
+### Trees
 
-Create lowpoly campfire model and fire particle system.
+Create couple low poly trees.
 
-![Alt text](/Screenshots/campfire.gif?raw=true "Campfire example")
+Examples:
+
+![Alt text](/Screenshots/tree_expl1.png?raw=true "Lowpoly tree reference")
+
+![Alt text](/Screenshots/tree_expl2.png?raw=true "Lowpoly tree reference")
